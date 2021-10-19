@@ -13,7 +13,8 @@ body {
   }
   
   header {
-    height: 35vh;
+    height: auto;
+    padding: 30px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -28,7 +29,7 @@ body {
   
   header img {
     border-radius: 50%;
-    width: 200px;
+    width: 100px;
     border: solid 5px rgb(209, 19, 19);
   }
   
@@ -43,7 +44,17 @@ body {
   button {
     padding: 5px 20px;
     border-radius: 15px;
-    background-color: rgb(230, 131, 74);
+    background-color: rgb(20, 105, 216);
     color: white;
+    border: solid 1px rgb(20, 105, 216);
+    cursor: pointer;
   }
+
+  button:hover {
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: rgb(5, 80, 179);
+
+  }
+
   
