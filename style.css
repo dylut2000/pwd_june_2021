@@ -33,7 +33,7 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 350px;
   margin: 1rem auto;
   height: auto;
   display: flex;
@@ -60,6 +60,6 @@ box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
